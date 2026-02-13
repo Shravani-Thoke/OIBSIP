@@ -1,117 +1,111 @@
-🌸 Task 1 – IRIS flower classification
-Oasis Infobyte – Data Science Internship
+# 🌸 Task 1 – IRIS flower classification
+# Oasis Infobyte – Data Science Internship
 
-📌 Project Overview
+
+### Oasis Infobyte – Data Science Internship (Task 1)
+
+## 📌 Project Overview
 
 This project focuses on building a Machine Learning model to classify Iris flowers into three species:
 
-Setosa
-
-Versicolor
-
-Virginica
+* Setosa
+* Versicolor
+* Virginica
 
 The classification is performed based on four numerical features:
 
-Sepal Length
-
-Sepal Width
-
-Petal Length
-
-Petal Width
+* Sepal Length
+* Sepal Width
+* Petal Length
+* Petal Width
 
 This is a supervised classification problem.
 
-📊 Dataset Information
+---
 
-The dataset used is the classic Iris dataset, which contains:
+## 📊 Dataset Information
 
-150 samples
+The dataset used is the classic **Iris dataset**, which contains:
 
-4 numerical features
-
-3 target classes (flower species)
+* 150 samples
+* 4 numerical features
+* 3 target classes (flower species)
 
 The dataset is clean and contains no missing values.
 
-🛠️ Technologies Used
+---
 
-Python
+## 🛠️ Technologies Used
 
-Pandas
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
 
-NumPy
+---
 
-Matplotlib
+## 🔍 Steps Performed
 
-Seaborn
+### 1️⃣ Data Exploration (EDA)
 
-Scikit-learn
+* Checked dataset structure using `.info()`
+* Verified missing values
+* Checked duplicate records
+* Visualized feature distributions using boxplots
 
-🔍 Steps Performed
-1️⃣ Data Exploration (EDA)
+### 2️⃣ Data Preparation
 
-Checked dataset structure using .info()
+* Defined feature matrix (X)
+* Defined target variable (y)
+* Split dataset into training and testing sets (80/20 split)
 
-Verified missing values
+### 3️⃣ Model Building
 
-Checked duplicate records
+* Used **K-Nearest Neighbors (KNN)** classifier
+* Trained the model using training data
 
-Visualized feature distributions using boxplots
+### 4️⃣ Model Evaluation
 
-2️⃣ Data Preparation
+* Predicted test data results
+* Calculated accuracy score
 
-Defined feature matrix (X)
+### 5️⃣ Sample Prediction
 
-Defined target variable (y)
+* Tested the model with custom sample input
+* Successfully predicted the species
 
-Split dataset into training and testing sets (80/20 split)
+---
 
-3️⃣ Model Building
-
-Used K-Nearest Neighbors (KNN) classifier
-
-Trained the model using training data
-
-4️⃣ Model Evaluation
-
-Predicted test data results
-
-Calculated accuracy score
-
-5️⃣ Sample Prediction
-
-Tested the model with custom sample input
-
-Successfully predicted the species
-
-📈 Model Performance
+## 📈 Model Performance
 
 The KNN classifier achieved high accuracy in predicting the correct flower species.
 
-🧠 Key Learnings
+---
 
-Understanding supervised classification
+## 🧠 Key Learnings
 
-Importance of train-test split
+* Understanding supervised classification
+* Importance of train-test split
+* How KNN works using distance-based similarity
+* Model evaluation using accuracy score
+* Basic exploratory data analysis techniques
 
-How KNN works using distance-based similarity
+---
 
-Model evaluation using accuracy score
+## 🚀 Future Improvements
 
-Basic exploratory data analysis techniques
+* Hyperparameter tuning (choosing optimal K value)
+* Comparing with other classification models
+* Cross-validation for better evaluation
 
-🚀 Future Improvements
+---
 
-Hyperparameter tuning (choosing optimal K value)
-
-Comparing with other classification models
-
-Cross-validation for better evaluation
-
-📌 Conclusion
+## 📌 Conclusion
 
 This project demonstrates the complete workflow of a basic machine learning classification task — from data preprocessing to model training and evaluation.
 
 It helped build a strong foundation in Machine Learning concepts and model implementation.
+
+---
