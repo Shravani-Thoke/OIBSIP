@@ -1,94 +1,89 @@
-📊 Task 2 – Unemployment Analysis in India
-Oasis Infobyte – Data Science Internship
-📌 Project Overview
+# 📊 Task 2 – Unemployment Analysis in India
+
+### Oasis Infobyte – Data Science Internship
+
+## 📌 Project Overview
 
 This project focuses on analyzing unemployment trends in India, especially examining the impact of COVID-19 on unemployment rates across different regions.
 
 The goal was to perform Exploratory Data Analysis (EDA) and derive meaningful insights using time-series visualization and aggregation techniques.
 
-📊 Dataset Information
+---
+
+## 📊 Dataset Information
 
 The dataset contains:
 
-Region-wise unemployment data
-
-Estimated unemployment rate (%)
-
-Labour participation rate
-
-Date column
-
-State-level observations
+* Region-wise unemployment data
+* Estimated unemployment rate (%)
+* Labour participation rate
+* Date column
+* State-level observations
 
 The dataset required cleaning and preprocessing before analysis.
 
-🛠️ Technologies Used
+---
 
-Python
+## 🛠️ Technologies Used
 
-Pandas
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
 
-NumPy
+---
 
-Matplotlib
+## 🔍 Steps Performed
 
-Seaborn
+### 1️⃣ Data Cleaning
 
-🔍 Steps Performed
-1️⃣ Data Cleaning
+* Checked for missing values
+* Removed null entries
+* Converted Date column into datetime format
 
-Checked for missing values
+### 2️⃣ Exploratory Data Analysis (EDA)
 
-Removed null entries
+* Analyzed overall unemployment trends
+* Segmented data into:
 
-Converted Date column into datetime format
+  * Pre-COVID period
+  * During-COVID period
+* Visualized unemployment rate over time
 
-2️⃣ Exploratory Data Analysis (EDA)
+### 3️⃣ National Trend Analysis
 
-Analyzed overall unemployment trends
+* Used `groupby()` to calculate average unemployment rate by date
+* Plotted time-series graph to identify spikes during COVID
 
-Segmented data into:
+### 4️⃣ Regional Comparison
 
-Pre-COVID period
+* Compared unemployment rates across regions using bar plots
+* Identified most affected regions during COVID
 
-During-COVID period
+---
 
-Visualized unemployment rate over time
+## 📈 Key Insights
 
-3️⃣ National Trend Analysis
+* Significant spike in unemployment during COVID-19
+* Noticeable regional variation in unemployment rates
+* Clear time-based trend shifts due to economic disruptions
 
-Used groupby() to calculate average unemployment rate by date
+---
 
-Plotted time-series graph to identify spikes during COVID
+## 🧠 Key Learnings
 
-4️⃣ Regional Comparison
+* Time-series data handling
+* Data aggregation using Pandas
+* Visualization of economic indicators
+* Real-world data analysis workflow
 
-Compared unemployment rates across regions using bar plots
+---
 
-Identified most affected regions during COVID
+## 🚀 Future Improvements
 
-📈 Key Insights
+* Seasonal decomposition analysis
+* Predictive modeling of unemployment trends
+* Interactive dashboards using Plotly
 
-Significant spike in unemployment during COVID-19
-
-Noticeable regional variation in unemployment rates
-
-Clear time-based trend shifts due to economic disruptions
-
-🧠 Key Learnings
-
-Time-series data handling
-
-Data aggregation using Pandas
-
-Visualization of economic indicators
-
-Real-world data analysis workflow
-
-🚀 Future Improvements
-
-Seasonal decomposition analysis
-
-Predictive modeling of unemployment trends
-
-Interactive dashboards using Plotly
+---
